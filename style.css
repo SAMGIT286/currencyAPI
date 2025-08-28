@@ -88,4 +88,10 @@ form button:hover {
     color: #357ab7; /* darker blue */
 }
 
+.msg{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: solid 2px black;
+}
 
