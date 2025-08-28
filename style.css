@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7ede2;
+}
+
+.container h2 { /*heading ke liye ek banana pada, to increase the padding */
+    margin-bottom: 1rem; /* space below the title */
+    /*text-align: center;   optional: center the title */
+}
+
+.container{
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 5vh;
+    height: 50vh;
+    width: 50vh;
+    padding: 5vh;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 5rem;
+    background-color: #CAF0F8;
+    margin-top: 2rem; /* increases space above the button */
+}
+.form{
+   margin: 2rem 0 1rem 0; 
+}
+
+form select, button, input {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: none;
+    outline: none;
+}
+
+
+form input{
+    padding: 5px;
+    border: 1px solid gainsboro;
+    margin-bottom: 1rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    box-shadow: #f7ede2;
+    
+}
+
+.select-container{
+    display: flex;
+}
+
+.select-container select{
+    font-size: 15px;
+    border-radius: 1rem;
+}
+
+.dropdown i{
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+form button:hover {
+    background-color: #357ab7; /* darker blue */
+    transform: translateY(-2px); /* subtle lift effect */
+    color: white;
+}
+
+.fa-arrow-right-arrow-left {
+    font-size: 2rem;
+    color: #4a90e2;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.fa-arrow-right-arrow-left:hover {
+    transform: rotate(180deg) scale(1.1); /* rotate & slightly enlarge */
+    color: #357ab7; /* darker blue */
+}
+
+
