@@ -53,6 +53,9 @@ let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()]; //per
 
 
 let finalAmount = amntVal * rate;
+msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 let msg = `${amntVal} ${fromCurr.value} = ${finalAmount}${toCurr.value}`;
 console.log(msg);
 });
+
+
